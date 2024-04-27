@@ -1,0 +1,39 @@
+main {
+  background-color: hsl(228, 45%, 44%);
+  max-height: 100vh;
+  max-width: 100vw;
+  padding: 5%;
+  display: block;
+}
+
+.container {
+  display: block;
+  border-radius: 0.5rem;
+  margin-right: auto;
+  margin-left: auto;
+  width: 20vw;
+  padding: 20px;
+  background-color: #fff;
+}
+
+.container img.image-qr-code {
+  display: block;
+  border-radius: 0.5rem;
+  max-width: 100%;
+}
+
+.container .text {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.container .text .header {
+  font-weight: 400;
+}
+
+.container .text .para {
+  font-weight: 700;
+}

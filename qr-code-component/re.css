@@ -1,0 +1,38 @@
+main {
+    display: block;
+    padding: 5%;
+    max-width: 100vw;
+    max-height: 100vh;
+    background-color: hsl(228, 45%, 44%);
+}
+
+.container {
+    display: block;
+    background-color: white;
+    border-radius: 0.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+    padding: 20px;
+}
+
+.container .img {
+    border-radius: 0.5rem;
+    margin: auto;
+    max-width: 100%;
+}
+
+.container .text {
+    text-align: center;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.container .text .header {
+    font-weight: 400;
+}
+
+.container .text .para {
+    font-weight: 700;
+}
